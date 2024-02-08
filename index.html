@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahabaz Sulthan</title>
+    <link rel="icon" type="image/x-icon" href="image/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f4e18d8ef3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+
+      <div class="container">
+        <nav>
+            <img src="image/Logo.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">PortFolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Golang Developer</p>
+          <h1>Hi, I'm <br><span>Shahabaz Sulthan </span><br> From Kerala</h1>
+        </div>
+
+      </div>  
+        
+    </div>
+
+    <!-- ------------------------------About Me--------------------------------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="image/about.jpeg" alt="about">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Meet Shahabaz Sulthan,
+               a passionate Golang Developer from the picturesque region of Kerala, India.
+                With expertise in Golang, HTML, CSS, and JavaScript,
+               I thrive in web development, utilizing technologies like jQuery to optimize user experiences.
+                A staunch advocate for teamwork, I foster collaboration to achieve outstanding results,
+                 supported by strong communication skills that facilitate effective idea exchange.
+                  When challenges arise, my problem-solving prowess shines,
+                   complemented by a creative approach that fuels innovation.
+                    Driven by a relentless pursuit of excellence, whether coding elegant solutions or collaborating with peers,
+                     I'm eager to connect and embark on an exciting journey of innovation together.
+
+            </p>
+
+                <div class="tab-title">
+                  <div class="tab-link active-link" onclick="opentab('Skills')">Skills</div>
+                  <div class="tab-link" onclick="opentab('Education')"">Education</div>
+                </div>
+                <div class="tab-content active-tab" id="Skills">
+                  <ul>
+                    <li><span>Golang</span><br>Golang Developer</li>
+                    <li><span>Web Dvelopment</span><br>Web App Developer</li>
+                    <li><span>App Developer</span><br>App Developer</li>
+                  </ul>
+                </div>
+                <div class="tab-content" id="Education">
+                  <ul>
+                    <li><span>2024</span><br>BCA from Srinivas University</li>
+                    <li><span>2021</span><br>PLUS TWO</li>
+                    <li><span>2019</span><br>SSLC</li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------Skill--------------------------------- -->
+    <div id="skill">
+    <div class="container1">
+      <h1 class="sub-title">My Skills</h1>
+      <div class="col">
+        <h3 class="titulo">Programs</h3>
+        <ul class="skill">
+          <li><span class="blueline html"></span><em>HTML</em></li>
+          <li><span class="blueline css"></span><em>CSS</em></li>
+          <li><span class="blueline javascript"></span><em>Javascript</em></li> 
+          <li><span class="blueline jquery"></span><em>jQuery</em></li>
+        </ul>
+      </div>
+        <!-- <div class="col">
+        <h3 class="plataformas titulo">Plataformas</h3>
+        <ul class="skill">
+          <li><span class="greenline wordpress"></span><em>Wordpress</em></li>
+          <li><span class="greenline prestashop"></span><em>Prestashop</em></li>
+          <li><span class="greenline joomla"></span><em>Joomla</em></li>
+          <li><span class="greenline blogger"></span><em>Blogger</em></li>
+          <li><span class="greenline tridion"></span><em>Tridion</em></li>
+        </ul>
+      </div> -->
+        <div class="col">
+        <h3 class="programas titulo">Skills</h3>
+        <ul class="skill">
+          <li><span class="redline dreamweaver"></span><em>TeamWork</em></li>
+          <li><span class="redline illustrator"></span><em>Communication</em></li>
+          <li><span class="redline photoshop"></span><em>Problem Solving</em></li>
+          <li><span class="redline flash"></span><em>Creativity</em></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+   <!-- --------------Service----------------- -->
+
+   <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="service-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+           <p>Elevate your online presence with our cutting-edge web design solutions.
+             From sleek layouts to intuitive user experiences,
+             we craft visually stunning websites tailored to your brand's unique identity and goals.</p>
+             <a href="#">Learn more</a>
+             </div>
+             <div>
+              <i class="fa-brands fa-app-store"></i>
+              <h2>App Design</h2>
+             <p>Transform your ideas into stunning digital experiences with our app design expertise.
+               From concept to execution,
+               we specialize in crafting intuitive interfaces that engage users and elevate your brand's presence.</p>
+               <a href="#">Learn more</a>
+               </div>
+               <div>
+                <i class="fa-brands fa-golang"></i>
+                <h2>Golang</h2>
+               <p>Unlock the power of Golang with our expert developers.
+                 From robust backend systems to high-performance applications,
+                 we deliver efficient solutions tailored to your needs, ensuring scalability and reliability.</p>
+                 <a href="#">Learn more</a>
+                 </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- ------------------------------Portfolio----------------------------------------------------- -->
+   <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/Work-1 (1).jpeg" alt="">
+            <div class="layer">
+              <h2>Social Media App</h2>
+              <p>Introducing our cutting-edge social media app, designed to revolutionize online connectivity.
+                 Seamlessly integrating features for networking, sharing, and engagement,
+                  our platform offers a dynamic space for users to interact and express themselves.
+                   With intuitive design and robust functionality,
+                    it's the ultimate hub for fostering connections and building communities.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/Work-1 (2).jpeg" alt="">
+            <div class="layer">
+              <h2>Music App</h2>
+              <p>Introducing our innovative musical app, a harmonious blend of creativity and technology.
+                 Dive into a world of melodies with seamless streaming, personalized playlists, and curated recommendations. 
+                 Discover new tunes, create your soundtracks,
+                 and share your favorite beats with friends.
+                  Experience the rhythm of possibility with our musical app.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/Work-1 (3).jpeg" alt="">
+            <div class="layer">
+              <h2>online shopping App</h2>
+              <p>Welcome to our online shopping app, your one-stop destination for convenience and style.
+                 Browse a vast selection of products from fashion to electronics,
+                  with easy navigation and secure transactions.
+                   Enjoy personalized recommendations, timely notifications,
+                    and seamless checkout for a hassle-free shopping experience.
+                     Elevate your online shopping journey with our app today!</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+   </div>
+
+<!-- -------------------------------Contact------------------------------------------- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i>   shahabazsulthan4@gmail.com</p>
+        <p> <i class="fa-solid fa-square-phone"></i>  9496703880</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/chabbu.chabbu.71/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/shahabaz-sulthan-a256252b3/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com/Shahabaz4573"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com/shahabazzz_/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="image/RESUME SHAHABAZ.pdf" download  class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright © Shahabaz Sulthan <i class="fa-solid fa-heart"></i></p>
+  </div>
+  </div>
+
+
+
+
+    <script src="script.js"></script>
+
+   
+</body>
+</html>
